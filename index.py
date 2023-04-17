@@ -5,9 +5,9 @@
 #!pip uninstall sqlalchemy==1.4 -y && pip install sqlalchemy==1.3.24
 #!pip install ipython-sql
 import ibm_db
-from config import dsn_hostname,dsn_uid,dsn_pwd,dsn_driver,dsn_database,dsn_port,dsn_protocol,dsn_security
 
 # Identify the database connection credentials in config.py
+from config import dsn_hostname,dsn_uid,dsn_pwd,dsn_driver,dsn_database,dsn_port,dsn_protocol,dsn_security
 
 # Create the DB2 database connection
 # Create the dsn connection string
